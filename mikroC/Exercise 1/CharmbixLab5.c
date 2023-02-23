@@ -8,7 +8,16 @@ void main()
     TRISC = 0x00; // Set PORTC as output
 
     // Create an array of numbers to display on the 7-segment displays
-    num[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};
+    num[0] = 0x3F;
+    num[1] = 0x06;
+    num[2] = 0x5B;
+    num[3] = 0x4F;
+    num[4] = 0x66;
+    num[5] = 0x6D;
+    num[6] = 0x7D;
+    num[7] = 0x07;
+    num[8] = 0x7F;
+    num[9] = 0x6F;
 
     // Create a loop to count from 00 to 99
     while(1)
@@ -17,9 +26,10 @@ void main()
         {
             for(j = 0; j < 10; ++j)
             {
-                PORTB = num[i]; // Display the first digit
-                PORTC = num[j]; // Display the second digit
-                delay_ms(1000); // Wait 1 second
+                PORTC = num[i]; // Display the first digit
+                PORTB = num[j]; // Display the second digit
+
+                delay_ms(1000);
             }
         }
     }
