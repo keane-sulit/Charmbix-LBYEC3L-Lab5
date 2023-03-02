@@ -12,6 +12,7 @@ __math_tempb
 __math_tempbd
 __savepclath
 __savestatus
+a
 ackdt
 ackdt_bit
 acken
@@ -39,6 +40,7 @@ adon
 adon_bit
 adresh
 adresl
+b
 b0
 b1
 b2
@@ -132,6 +134,7 @@ cmif
 cmif_bit
 comfrem
 compare_double
+count
 cren
 cren_bit
 csrc
@@ -218,7 +221,6 @@ go_done
 go_done_bit
 go_not_done
 go_not_done_bit
-i
 ibf
 ibf_bit
 ibf_trise_bit
@@ -227,6 +229,7 @@ ibov_bit
 ibov_trise_bit
 ics_auto
 ics_off
+inc
 indf
 int2double
 intcon
@@ -238,7 +241,6 @@ intf
 intf_bit
 irp
 irp_bit
-j
 longint2double
 longword2double
 main
@@ -279,7 +281,6 @@ not_write
 not_write_bit
 nrm3232
 nrm4032
-num
 obf
 obf_bit
 obf_trise_bit
@@ -440,6 +441,7 @@ re2_bit
 read_write
 read_write_bit
 res032
+reset
 rp0
 rp0_bit
 rp1
